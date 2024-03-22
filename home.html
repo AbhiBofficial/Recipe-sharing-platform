@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Food Recipes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #f2f2f2;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: #000;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .recipe {
+            border-bottom: 1px solid #ddd;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+        .recipe h3 {
+            margin-top: 0;
+        }
+        .recipe p {
+            margin-top: 5px;
+        }
+        .image-upload {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .image-upload input[type="file"] {
+            display: none;
+        }
+        .image-upload label {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .img_container {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .img_card {
+            height: 180px;
+            width: 300px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Healthy Food Recipes</h1>
+    </header>
+    <nav>
+        <a href="./home.html">Home</a>
+        <a href="./recipes.html">Recipes</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Popular Recipes</h2>
+        <div class="img_container">
+            <img class="img_card" src="https://c.ndtvimg.com/2023-08/mu4ovepg_chana-dal-tikki_240x180_02_August_23.jpg" alt="img1">
+            <img class="img_card" src="https://c.ndtvimg.com/2023-07/f0fevdl_cutlet_240x180_30_July_23.jpg" alt="img2">
+            <img class="img_card" src="https://c.ndtvimg.com/2023-08/aatli6t8_paratha_240x180_24_August_23.jpg" alt="img3">
+        </div>
+    </div>
+</body>
+</html>
