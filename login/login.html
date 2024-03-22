@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Log In</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- <script>
+            document.getElementById("submit_btn").window.alert("Wrong Username or Password")
+        </script> -->
+        <div class="container">
+            <div class="blur"></div>
+            <div class="form_container">
+                <h1 id="title">Log In</h1>
+                <form action="/submit_login" method="post">
+                    <label for="username" class="label_text">Username:</label>
+                    <br>
+                    <input type="text" id="username" name="username" placeholder="Enter Username">
+                    <br>
+                    <label for="password" class="label_text">Password:</label>
+                    <br>
+                    <input type="password" id="password" name="password" placeholder="Enter Password" required>
+                    <br>
+                    <input type="button" id="submit_btn" value="Login">
+                </form>
+                <a id="register" href="./registration.html" >Register</a>
+            </div>
+        </div>
+    </body>
+</html>
