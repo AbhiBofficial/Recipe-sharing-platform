@@ -3,7 +3,7 @@ body {
     background-color: #f2f2f2;
     margin: 0;
     padding: 0;
-    background-image:url("./background.jpg");
+    background-image:url("../images/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
